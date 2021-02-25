@@ -1,6 +1,6 @@
 __author__ = 'Raj'
 
-from DbServices.Helper import Helper
+from service.helper import Helper
 import threading, os
 from PyQt5.QtCore import QThread, pyqtSignal
 

@@ -1,7 +1,7 @@
 __author__ = 'Raj'
 
 from sqlalchemy import Column, Integer, String, TEXT
-from DbServices.Base import Base
+from service.base import Base
 Base = Base.base
 
 

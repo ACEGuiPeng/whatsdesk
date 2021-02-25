@@ -2,7 +2,7 @@ __author__ = 'Raj'
 
 from PyQt5.Qt import QWidget, QPixmap
 from resources import resource_rc
-from View import contactrow_ui
+from view import contactrow_ui
 
 
 class ContactRow(QWidget, contactrow_ui.Ui_Form):

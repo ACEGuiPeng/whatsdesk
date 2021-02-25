@@ -2,8 +2,8 @@ __author__ = 'Raj'
 
 from sqlalchemy import or_, select, and_
 from sqlalchemy.orm.exc import NoResultFound, MultipleResultsFound
-from DbServices.Tables import *
-from DbServices.Base import Base
+from service.tables import *
+from service.base import Base
 
 
 class Helper:

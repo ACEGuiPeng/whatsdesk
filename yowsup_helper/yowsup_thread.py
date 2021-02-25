@@ -10,7 +10,7 @@ from yowsup.layers import YowLayerEvent
 from yowsup.layers.auth import AuthError
 from yowsup.layers.network import YowNetworkLayer
 
-from YowsupHelper.Interfacer import Interfacer
+from yowsup_helper.interface import Interfacer
 
 
 class YowsupThread(QThread):

@@ -1,9 +1,9 @@
 __author__ = 'Raj'
 
-from View import message_ui
+from view import message_ui
 from PyQt5.Qt import QWidget
 from PyQt5.QtCore import pyqtSignal
-from DbServices.Helper import Helper
+from service.helper import Helper
 
 
 class Messager(QWidget, message_ui.Ui_Form):

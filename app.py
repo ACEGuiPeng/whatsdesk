@@ -1,6 +1,6 @@
 __author__ = 'Raj'
 
-from Controller.MainWindow import MainWindow
+from controller.main_window import MainWindow
 from PyQt5.QtWidgets import QApplication
 import sys
 

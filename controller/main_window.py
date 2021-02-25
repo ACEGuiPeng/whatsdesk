@@ -2,11 +2,11 @@ __author__ = 'Raj'
 
 from PyQt5.Qt import QMainWindow, QHeaderView, QAbstractItemView, QTableView, QTableWidgetItem
 from PyQt5 import QtWidgets
-from DbServices.Helper import Helper
-from View import mainapp_ui
-from Controller.ContactRow import ContactRow
-from Controller.Messager import Messager
-from YowsupHelper.YowsupThread import YowsupThread
+from service.helper import Helper
+from view import mainapp_ui
+from controller.contact_row import ContactRow
+from controller.messenger import Messager
+from yowsup_helper.yowsup_thread import YowsupThread
 
 
 class MainWindow(QMainWindow, mainapp_ui.Ui_MainWindow):
