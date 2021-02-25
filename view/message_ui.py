@@ -6,7 +6,8 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets
+
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -29,7 +30,7 @@ class Ui_Form(object):
         self.head_table.verticalHeader().setVisible(False)
         self.head_table.verticalHeader().setHighlightSections(False)
         self.verticalLayout.addWidget(self.head_table)
-        self.message_box = QtWebKitWidgets.QWebView(Form)
+        self.message_box = QtWebEngineWidgets.QWebEngineView(Form)
         self.message_box.setUrl(QtCore.QUrl("about:blank"))
         self.message_box.setObjectName("message_box")
         self.verticalLayout.addWidget(self.message_box)
@@ -65,5 +66,3 @@ class Ui_Form(object):
         Form.setWindowTitle(_translate("Form", "Form"))
         self.message_text.setPlaceholderText(_translate("Form", "Type Your Message Here"))
         self.send_button.setText(_translate("Form", "Send"))
-
-from PyQt5 import QtWebKitWidgets

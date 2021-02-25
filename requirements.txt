@@ -1,0 +1,3 @@
+PyQt5==5.15.3
+PyQtWebEngine==5.15.3
+yowsup==3.2.3
